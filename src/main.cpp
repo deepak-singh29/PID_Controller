@@ -36,7 +36,7 @@ int main()
   // TODO: Initialize the pid variable.
   
   // Can apply twidle to get optimum  parameter values
-  double K[] = {1.0,0.0,0.0};
+  double K[] = {0.17,0.0015,0.99};
   // Kp ,Ki ,Kd
   pid.Init(K[0],K[1],K[2]);
   
